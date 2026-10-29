@@ -14,3 +14,6 @@
 /* Editorial pass: headings carry the story; production explanations live once in credits. */
 .scene-top{justify-content:flex-end}.scene-top span:first-child{color:var(--muted)}
 @media(max-width:767px){.mobile-step-visual .scene-top span:first-child{display:inline;color:var(--muted)}}
+
+/* Keep reading progress without the removed brand header. */
+.masthead{height:3px;padding:0;border:0;background:transparent;pointer-events:none}.masthead .progress{bottom:0}
